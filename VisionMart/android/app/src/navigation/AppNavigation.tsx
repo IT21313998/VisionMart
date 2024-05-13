@@ -22,9 +22,7 @@ const AppNavigation = () => {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignupScreen} />
         <Stack.Screen name="Home" component={HomePage} />
-        <Stack.Screen name="Home1" component={ForgotPasswordPage} />
-        <Stack.Screen name="SignUp1" component={HomePage} />
-
+        {/* <Stack.Screen name="Home" component={ForgotPasswordPage} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );

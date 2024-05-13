@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, Image, StyleSheet, Text, TextInput, View } from 'react-native'; 
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+// import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import LoginScreen from './android/app/src/screens/LoginScreen';
 import SignupScreen from './android/app/src/screens/SignupScreen';
 import  {NavigationContainer}  from '@react-navigation/native';
-import AppNavigation from './android/app/src/navigation/AppNavigation';
+import AppNavigation from './android/app/src/navigation/AppNavigation.tsx';
 import 'react-native-gesture-handler';
 
 
